@@ -3,7 +3,7 @@
  *
  * @author 车亮召
  */
-public class ThreadDemo {
+public class ThreadDemo1 {
     public static void main(String[] args) throws Exception {
         new TestThread1().start();
         while (true) {
