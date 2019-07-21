@@ -29,7 +29,7 @@ public class HashtableTest {
 
     /**
      * 根据Entry迭代器遍历
-     * 
+     *
      * @param ht
      */
     public static void traverByEntry(Hashtable<Integer, String> ht) {
@@ -52,7 +52,7 @@ public class HashtableTest {
 
     /**
      * 根据的key的Iterator遍历
-     * 
+     *
      * @param ht
      */
     public static void traverByKeySet(Hashtable<Integer, String> ht) {
@@ -72,7 +72,7 @@ public class HashtableTest {
 
     /**
      * 根据key的Enumeration的迭代器遍历
-     * 
+     *
      * @param ht
      */
     public static void traverByEnumeration(Hashtable<Integer, String> ht) {

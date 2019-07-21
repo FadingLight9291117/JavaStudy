@@ -26,6 +26,6 @@ public class VectorTest {
         }
         long endTime = System.nanoTime();
         long duringTime = endTime - beginTime;
-        System.out.println(duringTime+"纳秒");
+        System.out.println(duringTime + "纳秒");
     }
 }

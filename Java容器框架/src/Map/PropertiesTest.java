@@ -16,7 +16,7 @@ import java.util.Map.Entry;
 
 /**
  * Properties示例程序
- * 
+ *
  * @author 车亮召
  */
 public class PropertiesTest {

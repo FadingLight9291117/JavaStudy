@@ -4,7 +4,7 @@ import java.util.LinkedList;
 
 /**
  * LinkedList示例
- * 
+ *
  * @author 车亮召
  */
 public class LinkedListTest {

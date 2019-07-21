@@ -26,11 +26,10 @@ public class ArrayListTest {
             b.add(i);
         }
         boolean c;
-        if (b.contains(2)){
-            c=true;
-        }
-        else{
-            c=false;
+        if (b.contains(2)) {
+            c = true;
+        } else {
+            c = false;
         }
         // System.out.println(c);
         // traverByIterator(b);
@@ -75,6 +74,6 @@ public class ArrayListTest {
         }
         long endTime = System.nanoTime();
         long duration = endTime - startTime;
-        System.out.println(duration+"纳秒");
+        System.out.println(duration + "纳秒");
     }
 }
