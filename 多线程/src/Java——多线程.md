@@ -6,7 +6,6 @@
     - 线程实现Runnable接口，实现run实现
     
 ## 多线程启动
-
 - start方法，会自动以新进程调用run方法
     - 底层用JNI来实现。JNI，Java Native Interface,它提供了若干个API，可以使得java程序调用C/C++程序
 - 直接调用run方法，将变成串行执行
