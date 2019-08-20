@@ -1,6 +1,10 @@
-import com.sun.tools.javac.Main;
-
 public class Demo {
+
+    @FunctionalInterface
+    interface fcc {
+        void function(String s);
+    }
+
     interface foo {
         void run();
     }
@@ -24,5 +28,11 @@ public class Demo {
                 System.out.println("Hello World3!");
             }
         }).start();
+
+        fcc lambda = (s) -> System.out.println(s);
+        lambda.function("Hello World4!");
+
+        fcc lambda2 = System.out::println;
+        lambda2.function("Hello World5!");
     }
 }
