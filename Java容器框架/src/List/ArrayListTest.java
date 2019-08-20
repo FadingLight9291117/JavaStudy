@@ -1,5 +1,6 @@
 package List;
 
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Iterator;
 
@@ -26,11 +27,7 @@ public class ArrayListTest {
             b.add(i);
         }
         boolean c;
-        if (b.contains(2)) {
-            c = true;
-        } else {
-            c = false;
-        }
+        c = b.contains(2);
         // System.out.println(c);
         // traverByIterator(b);
         // traverByIndex(b);
