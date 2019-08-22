@@ -3,19 +3,19 @@
  * 
  * @author 车亮召
  */
-public class Exception_defindedbumyself extends Exception {
+public class Exception_defindedbymyself extends Exception {
 
-    public Exception_defindedbumyself() {
+    public Exception_defindedbymyself() {
         super();
     }
 
-    public Exception_defindedbumyself(String msg) {
+    public Exception_defindedbymyself(String msg) {
         super(msg);
     }
 
     public static void main(String[] args) {
         try {
-            throw new Exception_defindedbumyself("这是一个自定义异常");
+            throw new Exception_defindedbymyself("这是一个自定义异常");
         } catch (Exception e) {
             e.printStackTrace();
         }
