@@ -1,5 +1,5 @@
 import java.lang.reflect.Method;
-
+// Method 实现函数指针功能
 public class MethodTest {
     public static void main(String[] args) {
         try {
@@ -9,6 +9,5 @@ public class MethodTest {
         } catch (Exception e) {
             e.printStackTrace();
         }
-
     }
 }
